@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.body{
+    /* height: 100vh; */
+    width:100%;
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('images/bg1.jfif'); */
+    background-image:url('images/bg1.jfif');
+    background-position: center;
+    background-size:cover;
+    padding-top:30px;
+}
+
+/* --REGISTRATION PAGE-- */
+
+.reg{
+    margin-top:40px;
+    border-radius: 5px;
+    background-color:rgba(0,0,0,0.2);
+    padding: 20px;
+    font-family: garamond, serif;
+    width:35%;
+    margin:auto;
+}
+.reg h2{
+    text-align: center;
+    padding:10px;
+    font-family: garamond, serif;
+}
+input[type=text],input[type=number],input[type=email],input[type=password], input[type=date],input[type=color]{
+    width:100%;
+    margin:7px 0px 15px 0px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+input[type=submit]{
+    padding:12px 17px;
+    border-radius:10px;
+    border:1px solid white;
+    background-color: rgba(0,0,0,0.2);
+    color:white;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color:black;
+}
+p a{
+    text-decoration: none;
+}
+
+
+/* --LOGIN PAGE-- */
+
+.body2{
+    height: 100vh;
+    width:100%;
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('images/bg1.jfif'); */
+    background-image:url('images/bg1.jfif');
+    background-position: center;
+    background-size:cover;
+    padding-top:11%;
+}
+.login{
+    /* margin-top:40px; */
+    border-radius: 5px;
+    background-color:rgba(0,0,0,0.2);
+    padding:27px 20px 32px 20px;
+    font-family: garamond, serif;
+    width:35%;
+    margin:auto;
+}
+.login h2{
+    text-align: center;
+    padding:10px;
+    font-family: garamond, serif;
+}
+input[type=email],input[type=password]{
+    width:100%;
+    margin:7px 0px 15px 0px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+input[type=submit]{
+    padding:12px 17px;
+    border-radius:10px;
+    border:1px solid white;
+    background-color: rgba(0,0,0,0.2);
+    color:white;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color:black;
+
+}

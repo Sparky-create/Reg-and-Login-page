@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reg page</title>
+</head>
+<body>
+    <main>
+        <div class="body">
+            <div class="reg">
+                <form action="">
+                    <h2>Registration form</h2>
+                    <label for="fname">First Name</label><br>
+                    <input type="text" name="fname" placeholder="Input your first name" maxlength="10" minlength="6" required><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" name="lname" placeholder="Input your last name" maxlength="10" minlength="6" required><br>
+                    <label for="num">Phone Number</label><br>
+                    <input type="number" name="num" placeholder="Input your phone number" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" placeholder="Input your email address" required><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" placeholder="Input a password" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).(8,)" title="Password must contain at least one number, one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+                    <label for="confirmpassword">Confirm Password</label><br>
+                    <input type="password" name="confirmpassword" placeholder="Confirm the password" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).(8,)" title="Password must contain at least one number, one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+                    <label for="gender">Gender</label><br>
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label><br><br>
+                    <label for="DOB">Date Of Birth</label><br>
+                    <input type="date" name="DOB" placeholder="Input your date of birth" max="2006-01-01" min="1982-01-01" required><br>
+                    <label for="fav colour">Favourite Color</label><br>
+                    <input type="color" name="fav colour" placeholder=" Input your favourite colour" required><br>
+                    <p>Already have an account? <a href="login.html">Sign in</a></p><br><br>
+                    <input type="submit" name="btn" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
